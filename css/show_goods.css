@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f8f9;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #44525e;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h3 span {
+    color: #ff7013;
+}
+
+.single-goods {
+  background: #fff;  
+  padding: 105px 0 100px 0;
+  border-top: 1px solid #edeff1;
+}
+
+.single-goods::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.single-goods-left {
+    float: left;
+    width: 37.5%;
+    margin: 1.25%;
+    text-align: center;
+}
+
+.single-goods-right {
+    float: right;
+    width: 57.5%;
+    margin: 1.25%;
+}
+
+.goods-img-max {
+    padding: 20px;
+    min-height: 320px;
+
+}
+
+.goods-img-max img {
+    max-width: 100%;
+}
+
+.goods-img-min div {
+    width: 94px;
+    height: 68px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 100px;
+    background: #f4f6f8;
+    cursor: pointer;
+}
+
+.goods-img-min img {
+    max-width: 100%;
+    
+}
+
+.goods-img-min div.active {
+    background: #ff5912;
+}
+
+.single-goods-cart h1{
+    color: #ff5912;
+}
+
+.single-goods-cart .min-description {
+    font-size: 18px;
+    color: #3c4751;
+    margin-left: 30px;
+}
+
+.single-goods-cart .full-description {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.choose-size {
+    font-size: 18px;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
+    padding: 40px 0;
+}
+
+.choose-size::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.choose-size .left {
+    width: 50%;
+    float: left;
+    text-align-last: left;
+}
+
+.choose-size .active {
+    font-weight: bold;
+    color: #ff5912;
+}
+
+.choose-size .right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.choose-size button {
+    background: none;
+    border: none;
+    color: #34404b;
+    font-size: 18px;
+}
+
+.cart-price {
+    width: 50%;
+    font-size: 18px;
+    color:  #28313b;
+    margin: 40px 0;
+    font-weight: bold;
+    float: left;
+}
+
+.order {
+    float: right;
+    margin: 30px 0 60px 0;
+    
+}
+
+.order button {   
+    background: #ff5912;
+    border-radius: 36px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    float: right;
+}
+
+.order img {
+    margin: 0 10px;
+}
+
+.icons {
+    margin: 8px;
+    float: right;
+}
